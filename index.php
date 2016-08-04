@@ -2,13 +2,13 @@
 <div class="container calcfrete">
     <div class="row">
         <div class="col-lg-12">
-        <h1 class="product_title2">Calcular Frete</h1>
+	 <h1 class="product_title2">Calcular Frete</h1>
         <form name="correios" method="post" action="?acao=ok">
             <input type="number" name="sCepDestino" placeholder="INSIRA SEU CEP">
             <input type="submit" value="OK">
         </form>
         <div class="naoseicep">
-        <a target="_blank" href="http://www.buscacep.correios.com.br/sistemas/buscacep/default.cfm">Não sei meu CEP</a>
+	  <a target="_blank" href="http://www.buscacep.correios.com.br/sistemas/buscacep/default.cfm">Não sei meu CEP</a>
         </div>
 		<div class="resultado-simulador">
 	  	<?php
